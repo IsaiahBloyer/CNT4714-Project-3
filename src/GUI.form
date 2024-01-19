@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI">
+  <grid id="27dc6" binding="window" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="834" height="490"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="b3d5" binding="top" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="750" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4b226" class="javax.swing.JLabel" binding="dInfo">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-16776961"/>
+              <text value="Enter Database Information"/>
+            </properties>
+          </component>
+          <component id="c0aec" class="javax.swing.JLabel" binding="sqlCMD">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16776961"/>
+              <text value="Enter An SQL Command"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="94224" binding="buttons" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="62959" class="javax.swing.JButton" binding="connect">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="187" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16776961"/>
+              <foreground color="-7424"/>
+              <text value="Connect to Database"/>
+            </properties>
+          </component>
+          <component id="c49bf" class="javax.swing.JTextField" binding="status">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="187" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font style="1"/>
+              <foreground color="-65504"/>
+              <text value="No Connection Now"/>
+            </properties>
+          </component>
+          <component id="409e" class="javax.swing.JButton" binding="clear">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="187" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4064001"/>
+              <foreground color="-65504"/>
+              <text value="Clear SQL Command"/>
+            </properties>
+          </component>
+          <component id="1c3da" class="javax.swing.JButton" binding="Execute">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="187" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16719061"/>
+              <foreground color="-16777216"/>
+              <text value="Execute SQL Command"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e4c3f" binding="result" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6c0a8" class="javax.swing.JButton" binding="clearR">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="187" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-7424"/>
+              <foreground color="-16777216"/>
+              <text value="Clear Result Window"/>
+            </properties>
+          </component>
+          <component id="27b41" class="javax.swing.JLabel" binding="resultWindow">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16776961"/>
+              <text value="SQL Execution Result Window"/>
+            </properties>
+          </component>
+          <scrollpane id="b020a">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="6487d" class="javax.swing.JTable" binding="results">
+                <constraints/>
+                <properties>
+                  <background color="-10065298"/>
+                  <preferredScrollableViewportSize width="450" height="200"/>
+                  <showHorizontalLines value="true"/>
+                  <showVerticalLines value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="56c06" binding="info" layout-manager="GridLayoutManager" row-count="4" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="756c6" class="javax.swing.JLabel" binding="driver">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <foreground color="-16777216"/>
+              <text value="JDBC Driver"/>
+            </properties>
+          </component>
+          <component id="d1e4f" class="javax.swing.JLabel" binding="url">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <text value="Database URL"/>
+            </properties>
+          </component>
+          <component id="7a00" class="javax.swing.JLabel" binding="user">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <text value="Username"/>
+            </properties>
+          </component>
+          <component id="ce274" class="javax.swing.JLabel" binding="pass">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <text value="Password"/>
+            </properties>
+          </component>
+          <component id="c6fc0" class="javax.swing.JComboBox" binding="drivers">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="275" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <model>
+                <item value="com.mysql.cj.jdbc.Driver"/>
+              </model>
+            </properties>
+          </component>
+          <component id="a8a5b" class="javax.swing.JComboBox" binding="urls">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="275" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <model>
+                <item value="jdbc:mysql://localhost:3306/project3"/>
+              </model>
+            </properties>
+          </component>
+          <component id="b5b15" class="javax.swing.JTextField" binding="passText">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="275" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a65c" class="javax.swing.JTextField" binding="userText">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="275" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="15f82" binding="cmd" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="375" height="-1"/>
+            <preferred-size width="375" height="-1"/>
+            <maximum-size width="375" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="43b38" class="javax.swing.JTextArea" binding="sql">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10065298"/>
+              <columns value="30"/>
+              <foreground color="-16777216"/>
+              <rows value="5"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
